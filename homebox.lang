@@ -1,0 +1,99 @@
+# Multilingual file for TOS 7 Docker application. All 14 languages are REQUIRED.
+
+[en-us]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[zh-cn]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox 是一款自托管家庭物品清单系统，可登记物品的位置、标签、保修、价格、照片与附件，提供网页界面和 REST API。"
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[zh-hk]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox 是一款自托管家庭物品清单系统，可登记物品的位置、标签、保修、价格、照片与附件，提供网页界面和 REST API。"
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[fr-fr]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[de-de]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[it-it]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[es-es]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[hu-hu]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ja-jp]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ko-kr]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[pl-pl]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ru-ru]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[tr-tr]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[pt-pt]
+name = "HomeBox"
+auth = "waskevin"
+descript = "HomeBox is a self-hosted home inventory system. Track locations, labels, warranties, prices, photos and attachments for everything you own, with a web UI and a REST API."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
