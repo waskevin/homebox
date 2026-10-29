@@ -102,6 +102,42 @@ The package is published as a Release asset (the TOS Developer Platform download
 - The icon in this repository is original placeholder artwork created for this package; it is **not** the upstream project logo, to avoid trademark issues.
 - This repository contains packaging metadata only. The application itself is developed by the HomeBox project and distributed under its own license (AGPL-3.0). All credit belongs to the upstream authors.
 
+## License, copyright and source / 许可证、版权与源码
+
+- **Licence of the application**: `AGPL-3.0`.  The full licence text is in
+  [`LICENSE`](LICENSE).
+- **Copyright**: the application is copyright the HomeBox project and its
+  contributors; the packaging in this repository is copyright (c) 2026
+  waskevin.  See [`NOTICE`](NOTICE) for the full attribution.
+- **Source code**: <https://github.com/sysadminsmedia/homebox>
+- **What this repository contains**: packaging metadata only
+  (`config.ini`, `homebox.lang`, `homebox.svg`, `docker-compose.yml` and
+  documentation).  It embeds no application source code and no binaries; the
+  image is pulled from Docker Hub on the user's device.
+
+## Privacy / 隐私
+
+- Full policy: [`PRIVACY.md`](PRIVACY.md)
+  (<https://github.com/waskevin/homebox/blob/main/PRIVACY.md>), also reachable
+  from App Center through the `help` link in `config.ini`.
+- All application data stays on the device, under
+  `/Volume<N>/DockerAppData/homebox/data`.
+- **No telemetry, no analytics, no upload to the publisher.**  The only
+  outbound request made by the package is the one-time image pull from Docker
+  Hub at install time.
+- Optional email and webhook notifiers can send messages to endpoints you configure; nothing is sent unless you set one up.
+
+## Third-party services and data destinations / 第三方服务与数据流向
+
+- **Default configuration: none.**  The package configures no external
+  endpoint, no account, no analytics service and no cloud storage.
+- **Install/update**: the TOS platform pulls `sysadminsmedia/homebox:0.27.1` from Docker Hub
+  (`hub.docker.com`, Docker, Inc.) - your IP address and the image name are
+  visible to that registry.
+- **Runtime**: the container serves plain HTTP on LAN port `10089` and makes
+  no other outbound connection by default.
+- **Optional, off by default**: email and webhook notifiers let you forward events to an SMTP server, a webhook URL or a chat service you configure yourself.  If you enable one, the data you choose to send (for example an item name or a notification body) leaves the device to that destination, which you select and control.  The package itself configures none.
+
 ## Links
 
 - Upstream project: https://github.com/sysadminsmedia/homebox
